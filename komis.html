@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Komis samochodowy</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div id="header">
+            <h2 id="delete">Wypożyczalnia samochodów</h2>
+            <div id="marki">
+                <p id="auto1" class="pointer" onclick="click1()">alfa romeo 159</p>
+                <p id="auto2" class="pointer" onclick="click2()">opel astra</p>
+                <p id="auto3" class="pointer" onclick="click3()">seat ibiza</p>
+                <p id="auto4" class="pointer" onclick="click4()">bmw e36</p>
+                <p id="auto5" class="pointer" onclick="click5()">skoda frosta octavia</p>
+            </div>
+        </div>
+        <div class="flex">
+            <div id="menu">
+                <div id="auto1jpg">
+                    <img src="alfa_romeo_159.jpg" onclick="click1()">
+                </div>
+                <div id="auto2jpg">
+                    <img src="opel_astra.jpg" onclick="click2()">
+                </div>
+                <div id="auto3jpg">
+                    <img src="seat_ibiza.jpg" onclick="click3()">
+                </div>
+                <div id="auto4jpg">
+                    <img src="bmw_e36.jpg" onclick="click4()">
+                </div>
+                <div id="auto5jpg">
+                    <img src="skoda_frosta_octavia.jpg" onclick="click5()">
+                </div>
+            </div>
+            <div id="content">
+                <div id="jpg">
+                    <img src="alfa_romeo_159.jpg" alt="alfa_romeo_159" id="photo"></img>
+                    <p id="description"></p>
+                </div>
+            </div>
+        </div>
+        <div id="footer">zaprojektowano przez i jakieś tam inne &copy;</div>
+    </body>
+</html>
